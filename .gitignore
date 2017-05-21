@@ -1,0 +1,8 @@
+#Qt
+build-*
+*.pro.user
+*.moc
+Makefile*
+
+#Creator
+*.autosave
