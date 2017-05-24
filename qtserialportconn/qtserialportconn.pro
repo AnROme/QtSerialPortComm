@@ -21,7 +21,8 @@ SOURCES += src/main.cpp\
     src/serialPortComm.cpp
 
 HEADERS  += src/mainwindow.h \
-    src/serialPortComm.h
+    src/serialPortComm.h\
+    src/arrayTemp.h
 
 FORMS    += src/mainwindow.ui
 
