@@ -4,25 +4,19 @@
 #
 #-------------------------------------------------
 
-QT       += core gui
-
-
-greaterThan(QT_MAJOR_VERSION, 4):
-
-QT += widgets serialport
-
-
-TARGET = SerialPortComm
 TEMPLATE = app
+TARGET = SerialPortComm
 
+QT += core gui widgets
+
+CONFIG += serialport
 
 SOURCES += src/main.cpp\
-        src/mainwindow.cpp \
+    src/mainwindow.cpp \
     src/serialPortComm.cpp
 
 HEADERS  += src/mainwindow.h \
     src/serialPortComm.h\
     src/arrayTemp.h
 
-FORMS    += src/mainwindow.ui
-
+FORMS += src/mainwindow.ui
